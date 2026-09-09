@@ -44,10 +44,19 @@ const categories = [
     ],
   },
   {
-    icon: Wrench,
-    name: 'Developer Tools',
-    items: ['Git', 'GitHub', 'Docker', 'Maven', 'Postman', 'VS Code'],
-  },
+  icon: Wrench,
+  name: 'Developer Tools',
+  items: [
+    'Git',
+    'GitHub',
+    'Docker',
+    'Maven',
+    'Postman',
+    'IntelliJ IDEA',
+    'Eclipse',
+    'VS Code',
+  ],
+},
 ]
 
 export function Stack() {
